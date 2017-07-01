@@ -17,12 +17,25 @@ class AboutViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        appVersion.text = "Release Version " + String(UIApplication.version())
-        osVersion.text = "iOS " + String(UIDevice.current.systemVersion)
+        loadAppInformation()
         
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+    }
+    
+    func loadAppInformation() {
+        let version : AnyObject! = Bundle.main.object(forInfoDictionaryKey:
+                                        "CFBundleShortVersionString") as AnyObject
+        
+        var versionAsString = String(describing: version)
+        //removing Optional() wrapper from the app release version
+        versionAsString = versionAsString.replacingOccurrences(of: "Optional", with: "")
+        versionAsString = versionAsString.replacingOccurrences(of: "(", with: "")
+        versionAsString = versionAsString.replacingOccurrences(of: ")", with: "")
+        
+        appVersion.text = "Release " + versionAsString
+        osVersion.text = "iOS " + String(UIDevice.current.systemVersion)
     }
     
 }
