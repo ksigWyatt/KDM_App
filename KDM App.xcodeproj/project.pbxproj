@@ -16,6 +16,8 @@
 		DC1B5D8F1EF9B47B0020D138 /* KDM_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1B5D8E1EF9B47B0020D138 /* KDM_AppTests.swift */; };
 		DC1B5D9A1EF9B47B0020D138 /* KDM_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1B5D991EF9B47B0020D138 /* KDM_AppUITests.swift */; };
 		DC1B5DA81EF9EEEE0020D138 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC1B5DA71EF9EEED0020D138 /* GoogleService-Info.plist */; };
+		DCDD9B891F07289100A7D076 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDD9B881F07289100A7D076 /* AboutViewController.swift */; };
+		DCDD9B8B1F07347800A7D076 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDD9B8A1F07347800A7D076 /* ContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		DC1B5D991EF9B47B0020D138 /* KDM_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDM_AppUITests.swift; sourceTree = "<group>"; };
 		DC1B5D9B1EF9B47B0020D138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC1B5DA71EF9EEED0020D138 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DCDD9B881F07289100A7D076 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		DCDD9B8A1F07347800A7D076 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +105,13 @@
 		DC1B5D761EF9B47B0020D138 /* KDM App */ = {
 			isa = PBXGroup;
 			children = (
+				DC1B5D801EF9B47B0020D138 /* Assets.xcassets */,
 				DC1B5D771EF9B47B0020D138 /* AppDelegate.swift */,
+				DCDD9B881F07289100A7D076 /* AboutViewController.swift */,
 				DC1B5D791EF9B47B0020D138 /* FirstViewController.swift */,
+				DCDD9B8A1F07347800A7D076 /* ContactViewController.swift */,
 				DC1B5D7B1EF9B47B0020D138 /* SecondViewController.swift */,
 				DC1B5D7D1EF9B47B0020D138 /* Main.storyboard */,
-				DC1B5D801EF9B47B0020D138 /* Assets.xcassets */,
 				DC1B5D821EF9B47B0020D138 /* LaunchScreen.storyboard */,
 				DC1B5D851EF9B47B0020D138 /* Info.plist */,
 				DC1B5DA71EF9EEED0020D138 /* GoogleService-Info.plist */,
@@ -265,7 +271,9 @@
 			files = (
 				DC1B5D7C1EF9B47B0020D138 /* SecondViewController.swift in Sources */,
 				DC1B5D781EF9B47B0020D138 /* AppDelegate.swift in Sources */,
+				DCDD9B891F07289100A7D076 /* AboutViewController.swift in Sources */,
 				DC1B5D7A1EF9B47B0020D138 /* FirstViewController.swift in Sources */,
+				DCDD9B8B1F07347800A7D076 /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,6 +542,7 @@
 				DC1B5DA01EF9B47B0020D138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC1B5DA11EF9B47B0020D138 /* Build configuration list for PBXNativeTarget "KDM AppTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +551,7 @@
 				DC1B5DA31EF9B47B0020D138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC1B5DA41EF9B47B0020D138 /* Build configuration list for PBXNativeTarget "KDM AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +560,7 @@
 				DC1B5DA61EF9B47B0020D138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
