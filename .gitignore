@@ -6,6 +6,7 @@
 */Contents.json
 *Contents.json
 *.png
+*/AppIcon.iconset/
 
 # .plist for frameworks
 GoogleService-Info.plist
