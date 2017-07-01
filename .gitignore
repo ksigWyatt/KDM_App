@@ -2,6 +2,12 @@
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
 
+# Graphics
+*/Contents.json
+*.png
+
+# .plist for frameworks
+GoogleService-Info.plist
 
 ## Build generated
 build/
