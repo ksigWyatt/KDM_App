@@ -17,7 +17,7 @@ class AboutViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        appVersion.text = String(UIApplication.version())
+        appVersion.text = "Release Version " + String(UIApplication.version())
         osVersion.text = "iOS " + String(UIDevice.current.systemVersion)
         
     }
