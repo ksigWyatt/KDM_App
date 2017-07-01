@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC1B5D781EF9B47B0020D138 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1B5D771EF9B47B0020D138 /* AppDelegate.swift */; };
+		DC1B5D7A1EF9B47B0020D138 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1B5D791EF9B47B0020D138 /* FirstViewController.swift */; };
+		DC1B5D7C1EF9B47B0020D138 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1B5D7B1EF9B47B0020D138 /* SecondViewController.swift */; };
+		DC1B5D7F1EF9B47B0020D138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1B5D7D1EF9B47B0020D138 /* Main.storyboard */; };
+		DC1B5D811EF9B47B0020D138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC1B5D801EF9B47B0020D138 /* Assets.xcassets */; };
+		DC1B5D841EF9B47B0020D138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC1B5D821EF9B47B0020D138 /* LaunchScreen.storyboard */; };
+		DC1B5D8F1EF9B47B0020D138 /* KDM_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1B5D8E1EF9B47B0020D138 /* KDM_AppTests.swift */; };
+		DC1B5D9A1EF9B47B0020D138 /* KDM_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1B5D991EF9B47B0020D138 /* KDM_AppUITests.swift */; };
+		DC1B5DA81EF9EEEE0020D138 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC1B5DA71EF9EEED0020D138 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC1B5D8B1EF9B47B0020D138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC1B5D6C1EF9B47B0020D138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC1B5D731EF9B47B0020D138;
+			remoteInfo = "KDM App";
+		};
+		DC1B5D961EF9B47B0020D138 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC1B5D6C1EF9B47B0020D138 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC1B5D731EF9B47B0020D138;
+			remoteInfo = "KDM App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC1B5D741EF9B47B0020D138 /* KDM App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KDM App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1B5D771EF9B47B0020D138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC1B5D791EF9B47B0020D138 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DC1B5D7B1EF9B47B0020D138 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DC1B5D7E1EF9B47B0020D138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC1B5D801EF9B47B0020D138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC1B5D831EF9B47B0020D138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC1B5D851EF9B47B0020D138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1B5D8A1EF9B47B0020D138 /* KDM AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KDM AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1B5D8E1EF9B47B0020D138 /* KDM_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDM_AppTests.swift; sourceTree = "<group>"; };
+		DC1B5D901EF9B47B0020D138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1B5D951EF9B47B0020D138 /* KDM AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KDM AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC1B5D991EF9B47B0020D138 /* KDM_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDM_AppUITests.swift; sourceTree = "<group>"; };
+		DC1B5D9B1EF9B47B0020D138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC1B5DA71EF9EEED0020D138 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC1B5D711EF9B47B0020D138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1B5D871EF9B47B0020D138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1B5D921EF9B47B0020D138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC1B5D6B1EF9B47B0020D138 = {
+			isa = PBXGroup;
+			children = (
+				DC1B5D761EF9B47B0020D138 /* KDM App */,
+				DC1B5D8D1EF9B47B0020D138 /* KDM AppTests */,
+				DC1B5D981EF9B47B0020D138 /* KDM AppUITests */,
+				DC1B5D751EF9B47B0020D138 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC1B5D751EF9B47B0020D138 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC1B5D741EF9B47B0020D138 /* KDM App.app */,
+				DC1B5D8A1EF9B47B0020D138 /* KDM AppTests.xctest */,
+				DC1B5D951EF9B47B0020D138 /* KDM AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC1B5D761EF9B47B0020D138 /* KDM App */ = {
+			isa = PBXGroup;
+			children = (
+				DC1B5D771EF9B47B0020D138 /* AppDelegate.swift */,
+				DC1B5D791EF9B47B0020D138 /* FirstViewController.swift */,
+				DC1B5D7B1EF9B47B0020D138 /* SecondViewController.swift */,
+				DC1B5D7D1EF9B47B0020D138 /* Main.storyboard */,
+				DC1B5D801EF9B47B0020D138 /* Assets.xcassets */,
+				DC1B5D821EF9B47B0020D138 /* LaunchScreen.storyboard */,
+				DC1B5D851EF9B47B0020D138 /* Info.plist */,
+				DC1B5DA71EF9EEED0020D138 /* GoogleService-Info.plist */,
+			);
+			path = "KDM App";
+			sourceTree = "<group>";
+		};
+		DC1B5D8D1EF9B47B0020D138 /* KDM AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC1B5D8E1EF9B47B0020D138 /* KDM_AppTests.swift */,
+				DC1B5D901EF9B47B0020D138 /* Info.plist */,
+			);
+			path = "KDM AppTests";
+			sourceTree = "<group>";
+		};
+		DC1B5D981EF9B47B0020D138 /* KDM AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC1B5D991EF9B47B0020D138 /* KDM_AppUITests.swift */,
+				DC1B5D9B1EF9B47B0020D138 /* Info.plist */,
+			);
+			path = "KDM AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC1B5D731EF9B47B0020D138 /* KDM App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1B5D9E1EF9B47B0020D138 /* Build configuration list for PBXNativeTarget "KDM App" */;
+			buildPhases = (
+				DC1B5D701EF9B47B0020D138 /* Sources */,
+				DC1B5D711EF9B47B0020D138 /* Frameworks */,
+				DC1B5D721EF9B47B0020D138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KDM App";
+			productName = "KDM App";
+			productReference = DC1B5D741EF9B47B0020D138 /* KDM App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC1B5D891EF9B47B0020D138 /* KDM AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1B5DA11EF9B47B0020D138 /* Build configuration list for PBXNativeTarget "KDM AppTests" */;
+			buildPhases = (
+				DC1B5D861EF9B47B0020D138 /* Sources */,
+				DC1B5D871EF9B47B0020D138 /* Frameworks */,
+				DC1B5D881EF9B47B0020D138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC1B5D8C1EF9B47B0020D138 /* PBXTargetDependency */,
+			);
+			name = "KDM AppTests";
+			productName = "KDM AppTests";
+			productReference = DC1B5D8A1EF9B47B0020D138 /* KDM AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC1B5D941EF9B47B0020D138 /* KDM AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC1B5DA41EF9B47B0020D138 /* Build configuration list for PBXNativeTarget "KDM AppUITests" */;
+			buildPhases = (
+				DC1B5D911EF9B47B0020D138 /* Sources */,
+				DC1B5D921EF9B47B0020D138 /* Frameworks */,
+				DC1B5D931EF9B47B0020D138 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC1B5D971EF9B47B0020D138 /* PBXTargetDependency */,
+			);
+			name = "KDM AppUITests";
+			productName = "KDM AppUITests";
+			productReference = DC1B5D951EF9B47B0020D138 /* KDM AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC1B5D6C1EF9B47B0020D138 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Kingdom Digital Media";
+				TargetAttributes = {
+					DC1B5D731EF9B47B0020D138 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					DC1B5D891EF9B47B0020D138 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = DC1B5D731EF9B47B0020D138;
+					};
+					DC1B5D941EF9B47B0020D138 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = DC1B5D731EF9B47B0020D138;
+					};
+				};
+			};
+			buildConfigurationList = DC1B5D6F1EF9B47B0020D138 /* Build configuration list for PBXProject "KDM App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC1B5D6B1EF9B47B0020D138;
+			productRefGroup = DC1B5D751EF9B47B0020D138 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC1B5D731EF9B47B0020D138 /* KDM App */,
+				DC1B5D891EF9B47B0020D138 /* KDM AppTests */,
+				DC1B5D941EF9B47B0020D138 /* KDM AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC1B5D721EF9B47B0020D138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1B5D841EF9B47B0020D138 /* LaunchScreen.storyboard in Resources */,
+				DC1B5DA81EF9EEEE0020D138 /* GoogleService-Info.plist in Resources */,
+				DC1B5D811EF9B47B0020D138 /* Assets.xcassets in Resources */,
+				DC1B5D7F1EF9B47B0020D138 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1B5D881EF9B47B0020D138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1B5D931EF9B47B0020D138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC1B5D701EF9B47B0020D138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1B5D7C1EF9B47B0020D138 /* SecondViewController.swift in Sources */,
+				DC1B5D781EF9B47B0020D138 /* AppDelegate.swift in Sources */,
+				DC1B5D7A1EF9B47B0020D138 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1B5D861EF9B47B0020D138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1B5D8F1EF9B47B0020D138 /* KDM_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1B5D911EF9B47B0020D138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1B5D9A1EF9B47B0020D138 /* KDM_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC1B5D8C1EF9B47B0020D138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC1B5D731EF9B47B0020D138 /* KDM App */;
+			targetProxy = DC1B5D8B1EF9B47B0020D138 /* PBXContainerItemProxy */;
+		};
+		DC1B5D971EF9B47B0020D138 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC1B5D731EF9B47B0020D138 /* KDM App */;
+			targetProxy = DC1B5D961EF9B47B0020D138 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC1B5D7D1EF9B47B0020D138 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1B5D7E1EF9B47B0020D138 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC1B5D821EF9B47B0020D138 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC1B5D831EF9B47B0020D138 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC1B5D9C1EF9B47B0020D138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC1B5D9D1EF9B47B0020D138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC1B5D9F1EF9B47B0020D138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YHYRKB62QF;
+				INFOPLIST_FILE = "KDM App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KingdomDigitalMedia.KDM-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC1B5DA01EF9B47B0020D138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YHYRKB62QF;
+				INFOPLIST_FILE = "KDM App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KingdomDigitalMedia.KDM-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC1B5DA21EF9B47B0020D138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YHYRKB62QF;
+				INFOPLIST_FILE = "KDM AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KingdomDigitalMedia.KDM-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KDM App.app/KDM App";
+			};
+			name = Debug;
+		};
+		DC1B5DA31EF9B47B0020D138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = YHYRKB62QF;
+				INFOPLIST_FILE = "KDM AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KingdomDigitalMedia.KDM-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KDM App.app/KDM App";
+			};
+			name = Release;
+		};
+		DC1B5DA51EF9B47B0020D138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YHYRKB62QF;
+				INFOPLIST_FILE = "KDM AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KingdomDigitalMedia.KDM-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KDM App";
+			};
+			name = Debug;
+		};
+		DC1B5DA61EF9B47B0020D138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = YHYRKB62QF;
+				INFOPLIST_FILE = "KDM AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.KingdomDigitalMedia.KDM-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KDM App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC1B5D6F1EF9B47B0020D138 /* Build configuration list for PBXProject "KDM App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1B5D9C1EF9B47B0020D138 /* Debug */,
+				DC1B5D9D1EF9B47B0020D138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC1B5D9E1EF9B47B0020D138 /* Build configuration list for PBXNativeTarget "KDM App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1B5D9F1EF9B47B0020D138 /* Debug */,
+				DC1B5DA01EF9B47B0020D138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC1B5DA11EF9B47B0020D138 /* Build configuration list for PBXNativeTarget "KDM AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1B5DA21EF9B47B0020D138 /* Debug */,
+				DC1B5DA31EF9B47B0020D138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DC1B5DA41EF9B47B0020D138 /* Build configuration list for PBXNativeTarget "KDM AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC1B5DA51EF9B47B0020D138 /* Debug */,
+				DC1B5DA61EF9B47B0020D138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC1B5D6C1EF9B47B0020D138 /* Project object */;
+}
