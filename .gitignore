@@ -7,6 +7,7 @@
 *Contents.json
 *.png
 */AppIcon.iconset/
+*/Assets.xcassets
 
 # .plist for frameworks
 GoogleService-Info.plist
