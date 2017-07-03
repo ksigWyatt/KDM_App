@@ -6,7 +6,6 @@
 //  Copyright © 2017 Kingdom Digital Media. All rights reserved.
 //
 
-import Foundation
 import UIKit
 
 class AboutViewController: UIViewController {
