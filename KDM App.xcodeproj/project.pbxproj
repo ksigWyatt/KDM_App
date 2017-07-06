@@ -19,6 +19,7 @@
 		DC5F6AF81F094E850058AA57 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5F6AF71F094E850058AA57 /* SettingsViewController.swift */; };
 		DC681CB21F09E3760070F98E /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC681CB11F09E3760070F98E /* Formatter.swift */; };
 		DCDD9B891F07289100A7D076 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDD9B881F07289100A7D076 /* AboutViewController.swift */; };
+		DCEB6A661F0DC54800874A09 /* Dronez.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEB6A651F0DC54800874A09 /* Dronez.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		DC5F6AF71F094E850058AA57 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		DC681CB11F09E3760070F98E /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
 		DCDD9B881F07289100A7D076 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		DCEB6A651F0DC54800874A09 /* Dronez.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dronez.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				DC681CB11F09E3760070F98E /* Formatter.swift */,
 				DC1B5D7B1EF9B47B0020D138 /* ContactViewController.swift */,
 				DC5F6AF71F094E850058AA57 /* SettingsViewController.swift */,
+				DCEB6A651F0DC54800874A09 /* Dronez.swift */,
 				DC1B5D7D1EF9B47B0020D138 /* Main.storyboard */,
 				DC1B5D821EF9B47B0020D138 /* LaunchScreen.storyboard */,
 				DC1B5D851EF9B47B0020D138 /* Info.plist */,
@@ -274,6 +277,7 @@
 			files = (
 				DC1B5D7C1EF9B47B0020D138 /* ContactViewController.swift in Sources */,
 				DC1B5D781EF9B47B0020D138 /* AppDelegate.swift in Sources */,
+				DCEB6A661F0DC54800874A09 /* Dronez.swift in Sources */,
 				DC681CB21F09E3760070F98E /* Formatter.swift in Sources */,
 				DCDD9B891F07289100A7D076 /* AboutViewController.swift in Sources */,
 				DC5F6AF81F094E850058AA57 /* SettingsViewController.swift in Sources */,
